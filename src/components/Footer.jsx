@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 function Footer() {
   return (
@@ -10,7 +11,8 @@ function Footer() {
         <div>
           <h2 className="text-xl font-bold mb-3">BS Group SRL</h2>
           <p className="text-gray-400">Building the future with innovation and excellence.</p>
-        </div>
+          <div className="flex space-x-4 mt-4"><LanguageSwitcher /></div>
+              </div>
 
         {/* Quick Links */}
         <div>
