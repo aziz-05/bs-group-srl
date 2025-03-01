@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaBars, FaTimes, FaChevronDown, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
+import ReactLogo from '../images/bs-group-srl.svg';
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,24 +27,29 @@ function Navbar() {
         <Link 
           to="/" 
           className="text-2xl font-extrabold text-white tracking-wide flex items-center relative overflow-hidden group"
-        >
+              >
+            <img 
+            src={ReactLogo} 
+            alt="BS Group SRL Logo" 
+            className="w-20 h-20" // Adjust size and margin
+            />
           <span className="transition-all duration-300 group-hover:text-yellow-400">BS Group</span> 
           <span className="text-yellow-400 ml-2 transition-all duration-300 group-hover:scale-110 group-hover:text-white">SRL</span>
-          <span className="absolute bottom-1 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-500 group-hover:w-full"></span>
+          <span className="absolute bottom-1 left-4 w-0 h-0.5 bg-yellow-400 transition-all duration-500 group-hover:w-full"></span>
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-stretch">
-          {["Home", "About", "Projects", "Contact"].map((item) => (
+          {[["Home", "Home"], ["About", "Chi siamo"], ["Projects", "Progetti"], ["Contact", "Contatti"]].map((item) => (
             <motion.div 
-              key={item} 
+              key={item[0]} 
               className="flex items-center relative group px-2"
             >
               <Link 
-                to={`/${item.toLowerCase()}`} 
+                to={`/${item[0].toLowerCase()}`} 
                 className="text-lg text-white transition-all duration-300 flex items-center h-full relative px-3 z-10 group-hover:text-yellow-400"
               >
-                {item}
+                {item[1]}
                 <span className="absolute bottom-1 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300  group-hover:w-full"></span>
               </Link>
               <span className="absolute inset-0 bg-gray-800 opacity-0 rounded-md transition-all duration-300 group-hover:opacity-20"></span>
@@ -77,9 +83,9 @@ function Navbar() {
                   style={{ top: "100%" }}
                 >
                   <ul className="py-2 w-48">
-                    {["Construction", "Renovation", "Consulting", "Maintenance"].map((service) => (
+                    {[["Construction", "Costruzione"], ["Renovation", "Ristrutturazione"], ["Consulting", "Consulenza"], ["Maintenance", "Manutenzione"]].map((service) => (
                       <motion.li
-                        key={service}
+                        key={service[0]}
                         whileHover={{ 
                           backgroundColor: "rgba(255,255,255,0.1)",
                           x: 5
@@ -87,10 +93,10 @@ function Navbar() {
                         className="transition-all duration-200 cursor-pointer"
                       >
                         <Link 
-                          to={`/services/${service.toLowerCase()}`} 
+                          to={`/services/${service[0].toLowerCase()}`} 
                           className="text-white block px-4 py-2 hover:text-yellow-400 transition-all duration-200"
                         >
-                          {service}
+                          {service[1]}
                         </Link>
                       </motion.li>
                     ))}
@@ -100,7 +106,6 @@ function Navbar() {
             </AnimatePresence>
           </div>
 
-          {/* Social Icons */}
           {/* Social Icons */}
           <div className="flex space-x-4 items-center ml-4">
             {[FaFacebook, FaInstagram, FaLinkedin].map((Icon, index) => (
@@ -140,20 +145,20 @@ function Navbar() {
             transition={{ duration: 0.5, ease: "easeInOut" }}
             className="fixed inset-0 bg-gray-900 bg-opacity-95 z-50 flex flex-col items-center justify-center space-y-8"
           >
-            {["Home", "About", "Projects", "Contact"].map((item, index) => (
+            {[["Home", "Home"], ["About", "Chi siamo"], ["Projects", "Progetti"], ["Contact", "Contatti"]].map((item, index) => (
               <motion.div
-                key={item}
+                key={item[0]}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 className="relative group"
               >
                 <Link
-                  to={`/${item.toLowerCase()}`}
+                  to={`/${item[0].toLowerCase()}`}
                   className="text-2xl text-white hover:text-yellow-400 transition-all duration-300 relative px-8 py-2 block"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  {item}
+                  {item[1]}
                   <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-yellow-400 transition-all duration-500 group-hover:w-3/4 group-hover:left-4"></span>
                 </Link>
                 <span className="absolute inset-0 bg-gray-800 opacity-0 rounded-md transition-all duration-300 group-hover:opacity-20"></span>
@@ -179,9 +184,9 @@ function Navbar() {
                     transition={{ duration: 0.3 }}
                     className="mt-4 bg-gray-800 rounded-lg shadow-xl p-4 space-y-2"
                   >
-                    {["Construction", "Renovation", "Consulting", "Maintenance"].map((service, idx) => (
+                    {[["Construction", "Costruzione"], ["Renovation", "Ristrutturazione"], ["Consulting", "Consulenza"], ["Maintenance", "Manutenzione"]].map((service, idx) => (
                       <motion.li
-                        key={service}
+                        key={service[0]}
                         initial={{ opacity: 0, x: -20 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: idx * 0.05 }}
@@ -193,11 +198,11 @@ function Navbar() {
                         className="px-6 py-2 rounded-lg transition-all duration-200 cursor-pointer"
                       >
                         <Link
-                          to={`/services/${service.toLowerCase()}`}
+                          to={`/services/${service[0].toLowerCase()}`}
                           className="text-white block hover:text-yellow-400 transition-colors duration-200"
                           onClick={() => setIsMenuOpen(false)}
                         >
-                          {service}
+                          {service[1]}
                         </Link>
                       </motion.li>
                     ))}
