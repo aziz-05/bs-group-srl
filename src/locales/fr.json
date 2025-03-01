@@ -1,0 +1,173 @@
+{
+  "achievements_title": "Nos Réalisations",
+  "projects_completed": "50+ Projets Réussis",
+  "projects_completed_description": "Nous avons réalisé plus de 50 projets de haute qualité, livrant l'excellence à chaque fois.",
+  "awards_won": "10+ Prix Gagnés",
+  "awards_won_description": "Reconnu pour notre innovation et qualité dans les services de construction.",
+  "clients_satisfied": "200+ Clients Satisfaits",
+  "clients_satisfied_description": "La satisfaction client est au cœur de notre entreprise, avec plus de 200 clients heureux.",
+  "ongoing_projects": "30+ Projets en Cours",
+  "ongoing_projects_description": "Nous travaillons actuellement sur plus de 30 projets, maintenant notre élan dans l'industrie.",
+  "cta_title": "Pourquoi Choisir BS Group SRL ?",
+  "construction_quality": "Construction de Haute Qualité",
+  "construction_quality_description": "Nous offrons des services de construction de haute qualité avec précision et efficacité.",
+  "modern_architecture": "Architecture Moderne",
+  "modern_architecture_description": "Nos conceptions allient innovation et fonctionnalité pour des résultats époustouflants.",
+  "client_centric": "Approche Centrée sur le Client",
+  "client_centric_description": "Nous collaborons étroitement avec nos clients pour garantir satisfaction et excellence.",
+  "explore_services": "Explorez Nos Services",
+  "footer_company_name": "BS Group SRL",
+  "footer_company_slogan": "Construire l'avenir avec innovation et excellence.",
+  "footer_quick_links": "Liens Rapides",
+  "footer_home": "Accueil",
+  "footer_about": "À propos",
+  "footer_services": "Services",
+  "footer_projects": "Projets",
+  "footer_contact": "Contact",
+  "footer_contact_address": "123 Avenue de la Construction, Ville, Pays",
+  "footer_contact_phone": "+123 456 7890",
+  "footer_contact_email": "info@bsgroup.com",
+  "footer_social_facebook": "Facebook",
+  "footer_social_instagram": "Instagram",
+  "footer_social_linkedin": "LinkedIn",
+  "footer_rights_reserved": "© 2025 BS Group SRL. Tous droits réservés.",
+  "hero_title": "Construire l'avenir, aujourd'hui",
+  "hero_subtitle": "Des services de construction de haute qualité avec innovation et excellence.",
+  "hero_button_view_projects": "Voir les projets",
+  "hero_button_get_in_touch": "Nous contacter",
+  "home": "Accueil",
+  "about": "À propos",
+  "projects": "Projets",
+  "contact": "Contact",
+  "services": "Services",
+  "service_1": "Construction",
+  "service_2": "Rénovation",
+  "service_3": "Consultation",
+  "service_4": "Entretien",
+  "teamTitle": "Rencontrez Notre Équipe",
+  "teamMembers": {
+    "john": "Jean Dupont",
+    "jane": "Jane Dupont",
+    "michael": "Michel Brown",
+    "emily": "Émilie Davis",
+    "ceo": "PDG & Fondateur",
+    "projectManager": "Chef de Projet",
+    "leadEngineer": "Ingénieur Principal",
+    "architect": "Architecte"
+  },
+  "recentProjectsTitle": "Nos Projets Récents",
+  "projects": {
+    "office": "Bureau Moderne",
+    "residential": "Complexe Résidentiel de Luxe",
+    "warehouse": "Entrepôt Industriel",
+    "officeDescription": "Un espace de bureau à la pointe de la technologie conçu pour la productivité et l'esthétique.",
+    "residentialDescription": "Un projet résidentiel haut de gamme alliant luxe et durabilité.",
+    "warehouseDescription": "Un entrepôt efficace avec des infrastructures modernes pour la logistique et le stockage.",
+    "viewDetails": "Voir les Détails",
+    "viewAllProjects": "Voir Tous les Projets"
+  },
+  "statisticsTitle": "Pourquoi Nous Choisir ?",
+  "stats": {
+    "completedProjects": "Projets Complétés",
+    "industryAwards": "Prix du Secteur",
+    "happyClients": "Clients Heureux",
+    "ongoingProjects": "Projets en Cours"
+  },
+  "testimonialsTitle": "Ce Que Disent Nos Clients",
+  "testimonials": [
+    {
+      "name": "John Doe",
+      "role": "CEO, Skyline Constructions",
+      "feedback": "BS Group SRL a livré notre projet à temps avec une qualité exceptionnelle. Leur professionnalisme et expertise ont rendu le processus parfaitement fluide."
+    },
+    {
+      "name": "Sarah Smith",
+      "role": "Chef de projet, GreenBuild",
+      "feedback": "Leur attention aux détails et leur engagement envers l'excellence sont incomparables. Je les recommande vivement pour tout projet de construction."
+    },
+    {
+      "name": "Michael Brown",
+      "role": "Propriétaire, Elite Properties",
+      "feedback": "Travailler avec BS Group SRL a été une expérience fantastique. Leur équipe a dépassé nos attentes de toutes les manières possibles."
+    }
+  ],
+  "trustedPartnersTitle": "Nos Partenaires de Confiance",
+  "partners": [
+    { "name": "Partenaire 1", "logo": "/images/partners/partner1.png" },
+    { "name": "Partenaire 2", "logo": "/images/partners/partner2.png" },
+    { "name": "Partenaire 3", "logo": "/images/partners/partner3.png" },
+    { "name": "Partenaire 4", "logo": "/images/partners/partner4.png" },
+    { "name": "Partenaire 5", "logo": "/images/partners/partner5.png" }
+  ],
+   "aboutTitle": "À propos de BS Group SRL",
+  "aboutDescription": "BS Group SRL est une entreprise de construction de premier plan dédiée à la réalisation de projets de haute qualité avec innovation et précision. Notre mission est de construire un avenir meilleur avec expertise et excellence.",
+  "contact": {
+    "title": "Contact Us",
+    "message": "We'd love to hear from you! Get in touch with us for inquiries, collaborations, or just to say hello.",
+    "sendMessage": "Send Message",
+    "sentSuccess": "Message sent successfully!",
+    "sentError": "There was an error sending your message. Please try again."
+  },
+  "ourProjects": "Nos Projets",
+  "projectDescription": "Nous sommes fiers de livrer des projets de construction de haute qualité qui résistent à l'épreuve du temps.",
+  "project": "Projet",
+  "ourServices": "Nos Services",
+  "servicesSubtitle": "Des solutions de haute qualité adaptées à vos besoins",
+  "whatWeOffer": "Ce Que Nous Offrons",
+  "construction": "Construction",
+  "renovation": "Rénovation",
+  "consulting": "Consultation",
+  "maintenance": "Maintenance",
+  "readMore": "Lire la Suite",
+  "readLess": "Lire Moins",
+  "learnMore": "En Savoir Plus",
+  "construction": {
+    "title": "Services de Construction",
+    "subtitle": "Construire votre vision avec précision et expertise",
+    "description": "Notre équipe de construction fournit des bâtiments de haute qualité adaptés à vos besoins, garantissant durabilité et innovation dans chaque projet.",
+    "features": {
+      "reliable": "Construction fiable et durable",
+      "modern": "Conceptions architecturales modernes",
+      "technology": "Technologies de construction avancées",
+      "experienced": "Ingénieurs et travailleurs expérimentés"
+    },
+    "cta": "Obtenir un devis"
+  },
+  "consulting": {
+    "title": "Services de Conseil",
+    "subtitle": "Des conseils d'experts pour faire réussir vos projets",
+    "description": "Nous fournissons des services de conseil d'experts pour vous aider à planifier et exécuter des projets réussis en toute confiance.",
+    "features": {
+      "experienced": "Professionnels expérimentés du secteur",
+      "customized": "Solutions personnalisées pour vos besoins",
+      "innovative": "Stratégies et perspectives innovantes",
+      "maximize": "Maximisez l'efficacité et la rentabilité"
+    },
+    "cta": "Obtenez une Consultation"
+  },
+  "maintenance": {
+    "title": "Services de Maintenance",
+    "subtitle": "Des solutions fiables pour maintenir votre propriété en parfait état",
+    "description": "Nos services de maintenance garantissent que votre propriété reste en excellent état tout au long de l'année. Des réparations aux contrôles de routine, nous gérons tout de manière professionnelle et efficace.",
+    "features": {
+      "technicians": "Techniciens experts disponibles 24/7",
+      "response": "Réponse rapide et service ponctuel",
+      "plans": "Plans de maintenance complets",
+      "emergency": "Support d'urgence lorsque vous en avez besoin"
+    },
+    "cta": "Demander une Maintenance"
+  },
+  "renovation": {
+    "title": "Services de Rénovation",
+    "subtitle": "Transformer les espaces avec des rénovations modernes et stylées",
+    "description": "Nous redonnons vie aux anciens espaces avec des solutions créatives de rénovation, offrant à votre propriété un aspect frais et moderne.",
+    "features": {
+      "upgrades": "Rénovations complètes intérieures et extérieures",
+      "materials": "Matériaux et savoir-faire de qualité",
+      "designs": "Designs modernes et aménagements",
+      "customized": "Rénovations personnalisées pour chaque besoin"
+    },
+    "cta": "Commencer la Rénovation"
+  }
+  
+}

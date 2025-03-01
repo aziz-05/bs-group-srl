@@ -1,0 +1,173 @@
+{
+  "achievements_title": "I Nostri Riconoscimenti",
+  "projects_completed": "50+ Progetti di Successo",
+  "projects_completed_description": "Abbiamo completato oltre 50 progetti di alta qualità, consegnando eccellenza ogni volta.",
+  "awards_won": "10+ Premi Vinti",
+  "awards_won_description": "Riconosciuti per la nostra innovazione e qualità nei servizi di costruzione.",
+  "clients_satisfied": "200+ Clienti Soddisfatti",
+  "clients_satisfied_description": "La soddisfazione del cliente è al centro del nostro business, con oltre 200 clienti soddisfatti.",
+  "ongoing_projects": "30+ Progetti in Corso",
+  "ongoing_projects_description": "Stiamo attualmente lavorando su oltre 30 progetti, mantenendo il nostro slancio nell'industria.",
+  "cta_title": "Perché Scegliere BS Group SRL?",
+  "construction_quality": "Costruzione di Alta Qualità",
+  "construction_quality_description": "Offriamo servizi di costruzione di alta qualità con precisione ed efficienza.",
+  "modern_architecture": "Architettura Moderna",
+  "modern_architecture_description": "I nostri progetti uniscono innovazione e funzionalità per risultati straordinari.",
+  "client_centric": "Approccio Centrato sul Cliente",
+  "client_centric_description": "Collaboriamo strettamente con i nostri clienti per garantire soddisfazione e eccellenza.",
+  "explore_services": "Esplora i Nostri Servizi",
+  "footer_company_name": "BS Group SRL",
+  "footer_company_slogan": "Costruire il futuro con innovazione ed eccellenza.",
+  "footer_quick_links": "Collegamenti Veloci",
+  "footer_home": "Home",
+  "footer_about": "Chi siamo",
+  "footer_services": "Servizi",
+  "footer_projects": "Progetti",
+  "footer_contact": "Contatti",
+  "footer_contact_address": "123 Via della Costruzione, Città, Paese",
+  "footer_contact_phone": "+123 456 7890",
+  "footer_contact_email": "info@bsgroup.com",
+  "footer_social_facebook": "Facebook",
+  "footer_social_instagram": "Instagram",
+  "footer_social_linkedin": "LinkedIn",
+  "footer_rights_reserved": "© 2025 BS Group SRL. Tutti i diritti riservati.",
+  "hero_title": "Costruire il futuro, oggi",
+  "hero_subtitle": "Servizi di costruzione di alta qualità con innovazione ed eccellenza.",
+  "hero_button_view_projects": "Vedi i Progetti",
+  "hero_button_get_in_touch": "Contattaci",
+  "home": "Home",
+  "about": "Chi siamo",
+  "projects": "Progetti",
+  "contact": "Contatti",
+  "services": "Servizi",
+  "service_1": "Costruzione",
+  "service_2": "Ristrutturazione",
+  "service_3": "Consulenza",
+  "service_4": "Manutenzione",
+  "teamTitle": "Incontra il nostro Team",
+  "teamMembers": {
+    "john": "Giovanni Rossi",
+    "jane": "Giulia Bianchi",
+    "michael": "Michele Verdi",
+    "emily": "Emilia Neri",
+    "ceo": "CEO & Fondatore",
+    "projectManager": "Responsabile Progetto",
+    "leadEngineer": "Ingegnere Capo",
+    "architect": "Architetto"
+  },
+  "recentProjectsTitle": "I Nostri Progetti Recenti",
+  "projects": {
+    "office": "Ufficio Moderno",
+    "residential": "Complesso Residenziale di Lusso",
+    "warehouse": "Magazzino Industriale",
+    "officeDescription": "Uno spazio ufficio all'avanguardia progettato per produttività ed estetica.",
+    "residentialDescription": "Un progetto residenziale di alta classe che unisce lusso e sostenibilità.",
+    "warehouseDescription": "Un magazzino efficiente con infrastrutture moderne per logistica e stoccaggio.",
+    "viewDetails": "Vedi Dettagli",
+    "viewAllProjects": "Vedi Tutti i Progetti"
+  },
+  "statisticsTitle": "Perché Scegliere Noi?",
+  "stats": {
+    "completedProjects": "Progetti Completati",
+    "industryAwards": "Premi del Settore",
+    "happyClients": "Clienti Soddisfatti",
+    "ongoingProjects": "Progetti in Corso"
+  },
+  "testimonialsTitle": "Cosa Dicono i Nostri Clienti",
+  "testimonials": [
+    {
+      "name": "John Doe",
+      "role": "CEO, Skyline Constructions",
+      "feedback": "BS Group SRL ha consegnato il nostro progetto in tempo con una qualità eccezionale. La loro professionalità ed esperienza hanno reso l'intero processo senza intoppi."
+    },
+    {
+      "name": "Sarah Smith",
+      "role": "Project Manager, GreenBuild",
+      "feedback": "La loro attenzione ai dettagli e l'impegno per l'eccellenza è senza pari. Li raccomando vivamente per qualsiasi progetto di costruzione."
+    },
+    {
+      "name": "Michael Brown",
+      "role": "Owner, Elite Properties",
+      "feedback": "Lavorare con BS Group SRL è stata un'esperienza fantastica. Il loro team ha superato le nostre aspettative in ogni modo possibile."
+    }
+  ],
+  "trustedPartnersTitle": "I Nostri Partner Fidati",
+  "partners": [
+    { "name": "Partner 1", "logo": "/images/partners/partner1.png" },
+    { "name": "Partner 2", "logo": "/images/partners/partner2.png" },
+    { "name": "Partner 3", "logo": "/images/partners/partner3.png" },
+    { "name": "Partner 4", "logo": "/images/partners/partner4.png" },
+    { "name": "Partner 5", "logo": "/images/partners/partner5.png" }
+  ],
+ "aboutTitle": "Chi siamo BS Group SRL",
+  "aboutDescription": "BS Group SRL è una delle principali aziende di costruzione, impegnata a fornire progetti di alta qualità con innovazione e precisione. La nostra missione è costruire un futuro migliore con esperienza ed eccellenza.",
+  "contact": {
+    "title": "Contattaci",
+    "message": "Siamo felici di sentirti! Contattaci per domande, collaborazioni o anche solo per dire ciao.",
+    "sendMessage": "Invia messaggio",
+    "sentSuccess": "Messaggio inviato con successo!",
+    "sentError": "Errore nell'invio del messaggio. Riprova."
+  },
+  "ourProjects": "I Nostri Progetti",
+  "projectDescription": "Siamo orgogliosi di offrire progetti di costruzione di alta qualità che resistono alla prova del tempo.",
+  "project": "Progetto",
+  "ourServices": "I Nostri Servizi",
+  "servicesSubtitle": "Soluzioni di alta qualità su misura per le tue esigenze",
+  "whatWeOffer": "Cosa Offriamo",
+  "construction": "Costruzione",
+  "renovation": "Ristrutturazione",
+  "consulting": "Consulenza",
+  "maintenance": "Manutenzione",
+  "readMore": "Leggi Più",
+  "readLess": "Leggi Meno",
+  "learnMore": "Scopri di più",
+  "construction": {
+    "title": "Servizi di Costruzione",
+    "subtitle": "Costruire la tua visione con precisione ed esperienza",
+    "description": "Il nostro team di costruzione fornisce edifici di alta qualità su misura per le tue esigenze, garantendo durata e innovazione in ogni progetto.",
+    "features": {
+      "reliable": "Costruzione affidabile e durevole",
+      "modern": "Progettazioni architettoniche moderne",
+      "technology": "Tecnologie avanzate di costruzione",
+      "experienced": "Ingegneri e lavoratori esperti"
+    },
+    "cta": "Richiedi un Preventivo"
+  },
+  "consulting": {
+    "title": "Servizi di Consulenza",
+    "subtitle": "Consigli esperti per aiutare i tuoi progetti a successo",
+    "description": "Offriamo servizi di consulenza esperta per aiutarti a pianificare e realizzare progetti di successo con fiducia.",
+    "features": {
+      "experienced": "Professionisti esperti del settore",
+      "customized": "Soluzioni personalizzate per le tue esigenze",
+      "innovative": "Strategie e intuizioni innovative",
+      "maximize": "Massimizza l'efficienza e la redditività"
+    },
+    "cta": "Richiedi una Consulenza"
+  },
+  "maintenance": {
+    "title": "Servizi di Manutenzione",
+    "subtitle": "Soluzioni affidabili per mantenere la tua proprietà in ottime condizioni",
+    "description": "I nostri servizi di manutenzione garantiscono che la tua proprietà rimanga in ottime condizioni durante tutto l'anno. Dalle riparazioni alle ispezioni di routine, gestiamo tutto in modo professionale ed efficiente.",
+    "features": {
+      "technicians": "Tecnici esperti disponibili 24/7",
+      "response": "Risposta rapida e servizio puntuale",
+      "plans": "Piani di manutenzione completi",
+      "emergency": "Supporto di emergenza quando ne hai bisogno"
+    },
+    "cta": "Richiedi Manutenzione"
+  },
+  "renovation": {
+    "title": "Servizi di Ristrutturazione",
+    "subtitle": "Trasformiamo gli spazi con aggiornamenti moderni e stilosi",
+    "description": "Rilanciamo gli spazi con soluzioni di ristrutturazione creative, dando alla tua proprietà un aspetto fresco e moderno.",
+    "features": {
+      "upgrades": "Ristrutturazioni complete interne ed esterne",
+      "materials": "Materiali e lavorazioni di qualità",
+      "designs": "Design moderni e layout innovativi",
+      "customized": "Ristrutturazioni personalizzate per ogni esigenza"
+    },
+    "cta": "Inizia la Ristrutturazione"
+  }
+  
+}

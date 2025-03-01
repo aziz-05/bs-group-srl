@@ -1,0 +1,173 @@
+{
+  "achievements_title": "Our Achievements",
+  "projects_completed": "50+ Successful Projects",
+  "projects_completed_description": "We have completed over 50 high-quality projects, delivering excellence every time.",
+  "awards_won": "10+ Awards Won",
+  "awards_won_description": "Recognized for our innovation and quality in construction services.",
+  "clients_satisfied": "200+ Satisfied Clients",
+  "clients_satisfied_description": "Customer satisfaction is at the core of our business, with over 200 happy clients.",
+  "ongoing_projects": "30+ Ongoing Projects",
+  "ongoing_projects_description": "We are currently working on over 30 projects, maintaining our momentum in the industry.",
+  "cta_title": "Why Choose BS Group SRL?",
+  "construction_quality": "High-Quality Construction",
+  "construction_quality_description": "We deliver top-notch construction services with precision and efficiency.",
+  "modern_architecture": "Modern Architecture",
+  "modern_architecture_description": "Our designs blend innovation and functionality for stunning results.",
+  "client_centric": "Client-Centric Approach",
+  "client_centric_description": "We collaborate closely with our clients to ensure satisfaction and excellence.",
+  "explore_services": "Explore Our Services",
+  "footer_company_name": "BS Group SRL",
+  "footer_company_slogan": "Building the future with innovation and excellence.",
+  "footer_quick_links": "Quick Links",
+  "footer_home": "Home",
+  "footer_about": "About",
+  "footer_services": "Services",
+  "footer_projects": "Projects",
+  "footer_contact": "Contact",
+  "footer_contact_address": "123 Construction Ave, City, Country",
+  "footer_contact_phone": "+123 456 7890",
+  "footer_contact_email": "info@bsgroup.com",
+  "footer_social_facebook": "Facebook",
+  "footer_social_instagram": "Instagram",
+  "footer_social_linkedin": "LinkedIn",
+  "footer_rights_reserved": "© 2025 BS Group SRL. All rights reserved.",
+  "hero_title": "Building the Future, Today",
+  "hero_subtitle": "High-quality construction services with innovation and excellence.",
+  "hero_button_view_projects": "View Projects",
+  "hero_button_get_in_touch": "Get in Touch",
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+  "services": "Services",
+  "service_1": "Construction",
+  "service_2": "Renovation",
+  "service_3": "Consulting",
+  "service_4": "Maintenance",
+  "teamTitle": "Meet Our Team",
+  "teamMembers": {
+    "john": "John Doe",
+    "jane": "Jane Smith",
+    "michael": "Michael Brown",
+    "emily": "Emily Davis",
+    "ceo": "CEO & Founder",
+    "projectManager": "Project Manager",
+    "leadEngineer": "Lead Engineer",
+    "architect": "Architect"
+  },
+  "recentProjectsTitle": "Our Recent Projects",
+  "projects": {
+    "office": "Modern Office Building",
+    "residential": "Luxury Residential Complex",
+    "warehouse": "Industrial Warehouse",
+    "officeDescription": "A state-of-the-art office space designed for productivity and aesthetics.",
+    "residentialDescription": "A high-end residential project blending luxury with sustainability.",
+    "warehouseDescription": "An efficient warehouse with modern infrastructure for logistics and storage.",
+    "viewDetails": "View Details",
+    "viewAllProjects": "View All Projects"
+  },
+  "statisticsTitle": "Why Choose Us?",
+  "stats": {
+    "completedProjects": "Completed Projects",
+    "industryAwards": "Industry Awards",
+    "happyClients": "Happy Clients",
+    "ongoingProjects": "Ongoing Projects"
+  },
+  "testimonialsTitle": "What Our Clients Say",
+  "testimonials": [
+    {
+      "name": "John Doe",
+      "role": "CEO, Skyline Constructions",
+      "feedback": "BS Group SRL delivered our project on time with exceptional quality. Their professionalism and expertise made the entire process seamless."
+    },
+    {
+      "name": "Sarah Smith",
+      "role": "Project Manager, GreenBuild",
+      "feedback": "Their attention to detail and commitment to excellence is unmatched. I highly recommend them for any construction project."
+    },
+    {
+      "name": "Michael Brown",
+      "role": "Owner, Elite Properties",
+      "feedback": "Working with BS Group SRL was a fantastic experience. Their team exceeded our expectations in every way possible."
+    }
+  ],
+  "trustedPartnersTitle": "Our Trusted Partners",
+  "partners": [
+    { "name": "Partner 1", "logo": "/images/partners/partner1.png" },
+    { "name": "Partner 2", "logo": "/images/partners/partner2.png" },
+    { "name": "Partner 3", "logo": "/images/partners/partner3.png" },
+    { "name": "Partner 4", "logo": "/images/partners/partner4.png" },
+    { "name": "Partner 5", "logo": "/images/partners/partner5.png" }
+  ],
+   "aboutTitle": "About BS Group SRL",
+  "aboutDescription": "BS Group SRL is a leading construction company dedicated to delivering high-quality projects with innovation and precision. Our mission is to build a better future with expertise and excellence.",
+  "contact": {
+    "title": "Contact Us",
+    "message": "We'd love to hear from you! Get in touch with us for inquiries, collaborations, or just to say hello.",
+    "sendMessage": "Send Message",
+    "sentSuccess": "Message sent successfully!",
+    "sentError": "There was an error sending your message. Please try again."
+  },
+  "ourProjects": "Our Projects",
+  "projectDescription": "We take pride in delivering high-quality construction projects that stand the test of time.",
+  "project": "Project",
+  "ourServices": "Our Services",
+  "servicesSubtitle": "High-quality solutions tailored for your needs",
+  "whatWeOffer": "What We Offer",
+  "construction": "Construction",
+  "renovation": "Renovation",
+  "consulting": "Consulting",
+  "maintenance": "Maintenance",
+  "readMore": "Read More",
+  "readLess": "Read Less",
+  "learnMore": "Learn More",
+  "construction": {
+    "title": "Construction Services",
+    "subtitle": "Building your vision with precision and expertise",
+    "description": "Our construction team delivers high-quality buildings tailored to your needs, ensuring durability and innovation in every project.",
+    "features": {
+      "reliable": "Reliable & durable construction",
+      "modern": "Modern architectural designs",
+      "technology": "Advanced building technologies",
+      "experienced": "Experienced engineers & workers"
+    },
+    "cta": "Get a Quote"
+  },
+  "consulting": {
+    "title": "Consulting Services",
+    "subtitle": "Expert advice to help your projects succeed",
+    "description": "We provide expert consulting services to help you plan and execute successful projects with confidence.",
+    "features": {
+      "experienced": "Experienced industry professionals",
+      "customized": "Customized solutions for your needs",
+      "innovative": "Innovative strategies & insights",
+      "maximize": "Maximize efficiency & profitability"
+    },
+    "cta": "Get Consultation"
+  },
+  "maintenance": {
+    "title": "Maintenance Services",
+    "subtitle": "Reliable solutions to keep your property in top condition",
+    "description": "Our maintenance services ensure that your property remains in excellent condition year-round. From repairs to routine checkups, we handle everything professionally and efficiently.",
+    "features": {
+      "technicians": "Expert technicians available 24/7",
+      "response": "Fast response and on-time service",
+      "plans": "Comprehensive maintenance plans",
+      "emergency": "Emergency support when you need it"
+    },
+    "cta": "Request Maintenance"
+  },
+  "renovation": {
+    "title": "Renovation Services",
+    "subtitle": "Transforming spaces with modern and stylish upgrades",
+    "description": "We bring old spaces to life with creative renovation solutions, giving your property a fresh and modern look.",
+    "features": {
+      "upgrades": "Full interior & exterior upgrades",
+      "materials": "Quality materials & craftsmanship",
+      "designs": "Modern designs & layouts",
+      "customized": "Customized renovations for every need"
+    },
+    "cta": "Start Renovation"
+  }
+  
+}
