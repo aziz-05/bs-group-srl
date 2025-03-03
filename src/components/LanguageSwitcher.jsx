@@ -36,6 +36,13 @@ const LanguageSwitcher = () => {
         <Flag code="DE" alt="Deutsch" className="w-5 h-3 " />
         
       </button>
+      <button
+        onClick={() => changeLanguage('it')}
+        className="flex items-center p-2 bg-gray-600 border rounded-lg hover:bg-gray-200 focus:outline-none"
+      >
+        <Flag code="IT" alt="Deutsch" className="w-5 h-3 " />
+        
+      </button>
     </div>
   );
 };
