@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function HeroBackground({
   title = "Building the Future, Today",
   subtitle = "High-quality construction services with innovation and excellence.",
-  image = "/images/main-hero-bg.jpg",
+  image = "/src/images/main-hero-bg.jpg",
 }) {
   return (
     <div
-      className="relative h-screen flex items-center justify-center text-white bg-cover bg-center"
+      className="relative h-screen flex mt-4 items-center justify-center text-white bg-cover bg-center"
       style={{ backgroundImage: `url('${image}')` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
