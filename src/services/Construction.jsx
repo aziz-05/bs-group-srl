@@ -6,7 +6,7 @@ import HeroBackground from "@/components/HeroBackground";
 function Construction() {
   return (
     <div>
-      <HeroBackground title="Construction Services" subtitle="Building your vision with precision and expertise" image="/images/construction-bg.jpg" />
+      <HeroBackground title="Construction Services" subtitle="Building your vision with precision and expertise" image="/src/images/construction-bg.webp" />
 
       <section className="container mx-auto py-16 px-6">
         <motion.h2 className="text-4xl font-bold text-center mb-8"

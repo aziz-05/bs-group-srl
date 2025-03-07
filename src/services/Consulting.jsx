@@ -6,7 +6,7 @@ import HeroBackground from "@/components/HeroBackground";
 function Consulting() {
   return (
     <div>
-      <HeroBackground title="Consulting Services" subtitle="Expert advice to help your projects succeed" image="/images/consulting-bg.jpg" />
+      <HeroBackground title="Consulting Services" subtitle="Expert advice to help your projects succeed" image="/src/images/consulting-bg.webp" />
 
       <section className="container mx-auto py-16 px-6">
         <motion.h2 className="text-4xl font-bold text-center mb-8"
@@ -17,11 +17,11 @@ function Consulting() {
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <motion.div className="rounded-lg overflow-hidden shadow-lg"
+          <motion.div className="rounded-lg overflow-hidden shadow-lg "
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}>
-            <img src="/images/consulting.jpg" alt="Consulting Services" className="w-full h-auto object-cover" />
+            <img src="/src/images/consulting.webp" alt="Consulting Services"  className="w-full h-full object-cover" />
           </motion.div>
 
           <motion.div className="space-y-6"

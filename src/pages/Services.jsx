@@ -11,28 +11,28 @@ const services = [
     title: "Construction",
     description: "High-quality construction services for residential and commercial projects.",
     icon: <FaBuilding className="text-4xl text-yellow-500" />,
-    image: "/images/construction.jpg",
+    image: "/src/images/construction.webp",
     link: "/services/construction",
   },
   {
     title: "Renovation",
     description: "Transform and upgrade your spaces with expert renovation services.",
     icon: <FaHammer className="text-4xl text-yellow-500" />,
-    image: "/images/renovation.jpg",
+    image: "/src/images/renovation.webp",
     link: "/services/renovation",
   },
   {
     title: "Consulting",
     description: "Professional consulting services to guide your construction projects.",
     icon: <FaClipboardList className="text-4xl text-yellow-500" />,
-    image: "/images/consulting.jpg",
+    image: "/src/images/consulting.webp",
     link: "/services/consulting",
   },
   {
     title: "Maintenance",
     description: "Reliable maintenance solutions to keep your properties in top condition.",
     icon: <FaTools className="text-4xl text-yellow-500" />,
-    image: "/images/maintenance.jpg",
+    image: "/src/images/maintenance.webp",
     link: "/services/maintenance",
   },
 ];
@@ -43,7 +43,7 @@ function Services() {
   return (
     <div>
       {/* Hero Section */}
-      <HeroBackground title="Our Services" subtitle="High-quality solutions tailored for your needs" image="/images/services-bg.jpg" />
+      <HeroBackground title="Our Services" subtitle="High-quality solutions tailored for your needs" image="/src/images/services-bg.webp" />
 
       {/* Services Section */}
       <section className="container mx-auto py-16 px-6">

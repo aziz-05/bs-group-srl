@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const projectImages = [
-  "/images/project1.jpg",
+  "/src/images/renovation.webp",
   "/images/project2.jpg",
   "/images/project3.jpg",
   "/images/project4.jpg",

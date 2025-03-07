@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       {/* Hero Section */}
-      <HeroBackground />
+      <HeroBackground title="Building the Future, Today" subtitle="High-quality construction services with innovation and excellence." image="/src/images/main-hero-bg.webp" />
 
       {/* Call to Action */}
       <CallToAction />

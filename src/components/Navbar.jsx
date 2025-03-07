@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { FaBars, FaTimes, FaChevronDown, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes, FaChevronDown, FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
-import ReactLogo from '../images/bs-group-srl.svg';
+import ReactLogo from '../images/bs-group-srl-ye.png';
+import ReactLogow from '../images/bs-group-srl.png';
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,12 +28,18 @@ function Navbar() {
         <Link 
           to="/" 
           className="text-2xl font-extrabold text-white tracking-wide flex items-center relative overflow-hidden group"
-              >
-            <img 
-            src={ReactLogo} 
+        >
+          <img 
+            src={ReactLogow} 
             alt="BS Group SRL Logo" 
-            className="w-20 h-20" // Adjust size and margin
-            />
+            className="w-24 h-24 transition-all duration-300 group-hover:opacity-0" // Adjust size and margin
+          />
+          <img 
+            src={ReactLogo} 
+            alt="BS Group SRL Logo White" 
+            className="w-24 h-24 absolute transition-all duration-300 opacity-0 group-hover:opacity-100" // Adjust size and margin
+          />
+        
           <span className="transition-all duration-300 group-hover:text-yellow-400">BS Group</span> 
           <span className="text-yellow-400 ml-2 transition-all duration-300 group-hover:scale-110 group-hover:text-white">SRL</span>
           <span className="absolute bottom-1 left-4 w-0 h-0.5 bg-yellow-400 transition-all duration-500 group-hover:w-full"></span>
@@ -108,16 +115,18 @@ function Navbar() {
 
           {/* Social Icons */}
           <div className="flex space-x-4 items-center ml-4">
-            {[FaFacebook, FaInstagram, FaLinkedin].map((Icon, index) => (
-              <motion.a
-                key={index}
-                whileHover={{ scale: 1.5 }}
-                href="#"
-                className="text-white hover:text-yellow-400 transition"
-              >
-                <Icon size={20} />
-              </motion.a>
-            ))}
+            {
+              [{ Icon: FaFacebook, url: "https://facebook.com" }, { Icon: FaInstagram, url: "https://instagram.com" }, { Icon: FaLinkedin, url: "https://linkedin.com" }, { Icon: FaWhatsapp, url: "https://wa.me" }].map((item, index) => (
+                <motion.a
+                  key={index}
+                  whileHover={{ scale: 1.5 }}
+                  href={item.url}
+                  className="text-white hover:text-yellow-400 transition"
+                >
+                  <item.Icon size={20} />
+                </motion.a>
+              ))
+            }
          </div>
         </nav>
 
@@ -213,7 +222,7 @@ function Navbar() {
 
             {/* Social Icons */}
             <div className="flex space-x-6 mt-8">
-              {[FaFacebook, FaInstagram, FaLinkedin].map((Icon, index) => (
+              {[FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp].map((Icon, index) => (
                 <motion.a
                   key={index}
                   whileHover={{ 

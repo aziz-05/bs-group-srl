@@ -7,7 +7,7 @@ function Maintenance() {
   return (
     <div>
       {/* Hero Section */}
-      <HeroBackground title="Maintenance Services" subtitle="Reliable solutions to keep your property in top condition" image="/images/maintenance-bg.jpg" />
+      <HeroBackground title="Maintenance Services" subtitle="Reliable solutions to keep your property in top condition" image="/src/images/maintenance-bg.webp" />
 
       {/* Service Details */}
       <section className="container mx-auto py-16 px-6">
