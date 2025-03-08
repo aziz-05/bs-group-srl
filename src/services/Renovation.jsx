@@ -1,44 +1,77 @@
 import { motion } from "framer-motion";
-import { FaPaintRoller, FaHome, FaRedo, FaCheckCircle } from "react-icons/fa";
-import CallToAction from "@/components/CallToAction";
+import { useTranslation } from "react-i18next";
+import { FaCheckCircle, FaRedo, FaPaintRoller, FaHome } from "react-icons/fa";
 import HeroBackground from "@/components/HeroBackground";
+import CallToAction from "@/components/CallToAction";
 
 function Renovation() {
+  const { t } = useTranslation();
+
+  // Retrieve the features array from translations
+  const features = t("Renovation.features", { returnObjects: true });
+
+  // Define icons corresponding to each feature
+  const featureIcons = [
+    <FaCheckCircle className="text-yellow-500 text-2xl mr-3" />,
+    <FaRedo className="text-yellow-500 text-2xl mr-3" />,
+    <FaPaintRoller className="text-yellow-500 text-2xl mr-3" />,
+    <FaHome className="text-yellow-500 text-2xl mr-3" />,
+  ];
+
   return (
     <div>
-      <HeroBackground title="Renovation Services" subtitle="Transforming spaces with modern and stylish upgrades" image="/src/images/renovation-bg.webp" />
+      <HeroBackground
+        title={t("Renovation.heroTitle")}
+        subtitle={t("Renovation.heroSubtitle")}
+        image="/src/images/renovation-bg.webp"
+      />
 
       <section className="container mx-auto py-16 px-6">
-        <motion.h2 className="text-4xl font-bold text-center mb-8"
+        <motion.h2
+          className="text-4xl font-bold text-center mb-8"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}>
-          Why Renovate with Us?
+          transition={{ duration: 0.5 }}
+        >
+          {t("Renovation.header")}
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <motion.div className="rounded-lg overflow-hidden shadow-lg"
+          {/* Left Section - Image */}
+          <motion.div
+            className="rounded-lg overflow-hidden shadow-lg"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}>
-            <img src="/images/renovation.jpg" alt="Renovation Services" className="w-full h-auto object-cover" />
+            transition={{ duration: 0.5 }}
+          >
+            <img
+              src="/images/renovation.jpg"
+              alt={t("Renovation.imageAlt")}
+              className="w-full h-auto object-cover"
+            />
           </motion.div>
 
-          <motion.div className="space-y-6"
+          {/* Right Section - Service Info */}
+          <motion.div
+            className="space-y-6"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}>
+            transition={{ duration: 0.5 }}
+          >
             <p className="text-lg text-gray-700">
-              We bring old spaces to life with creative renovation solutions, giving your property a fresh and modern look.
+              {t("Renovation.description")}
             </p>
             <ul className="space-y-4">
-              <li className="flex items-center"><FaCheckCircle className="text-yellow-500 text-2xl mr-3" /><span>Full interior & exterior upgrades</span></li>
-              <li className="flex items-center"><FaRedo className="text-yellow-500 text-2xl mr-3" /><span>Quality materials & craftsmanship</span></li>
-              <li className="flex items-center"><FaPaintRoller className="text-yellow-500 text-2xl mr-3" /><span>Modern designs & layouts</span></li>
-              <li className="flex items-center"><FaHome className="text-yellow-500 text-2xl mr-3" /><span>Customized renovations for every need</span></li>
+              {features &&
+                features.map((feature, index) => (
+                  <li key={index} className="flex items-center">
+                    {featureIcons[index]}
+                    <span>{feature}</span>
+                  </li>
+                ))}
             </ul>
             <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition">
-              Start Renovation
+              {t("Renovation.button")}
             </button>
           </motion.div>
         </div>

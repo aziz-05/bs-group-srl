@@ -7,6 +7,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { useTranslation } from "react-i18next";
 
 const projectImages = [
   "/src/images/renovation.webp",
@@ -16,6 +17,8 @@ const projectImages = [
 ];
 
 function Projects() {
+  const { t } = useTranslation();
+
   return (
     <>
       <motion.section 
@@ -24,9 +27,11 @@ function Projects() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h2 className="text-4xl font-bold mb-6">Our Projects</h2>
+        <h2 className="text-4xl font-bold mb-6">
+          {t("Projects.header")}
+        </h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          We take pride in delivering high-quality construction projects that stand the test of time.
+          {t("Projects.description")}
         </p>
       </motion.section>
 
@@ -47,7 +52,11 @@ function Projects() {
         >
           {projectImages.map((img, index) => (
             <SwiperSlide key={index}>
-              <img src={img} alt={`Project ${index + 1}`} className="w-full h-96 object-cover rounded-lg shadow-lg" />
+              <img 
+                src={img} 
+                alt={t("Projects.imageAlt", { index: index + 1 })}
+                className="w-full h-96 object-cover rounded-lg shadow-lg" 
+              />
             </SwiperSlide>
           ))}
         </Swiper>

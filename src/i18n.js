@@ -17,12 +17,12 @@ i18n.use(initReactI18next).init({
     },
     de: {
       translation: de,
-        },
+    },
     it: {
       translation: it,
     },
   },
-  lng: "it", // Default language
+  lng: localStorage.getItem("language") || "it",
   fallbackLng: "en", // Fallback language when translation is missing
   interpolation: {
     escapeValue: false, // React already escapes values

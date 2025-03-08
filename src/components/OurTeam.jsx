@@ -1,38 +1,23 @@
 import { motion } from "framer-motion";
+import { useTranslation, Trans } from "react-i18next";
 
 const teamMembers = [
-  {
-    id: 1,
-    name: "John Doe",
-    role: "CEO & Founder",
-    image: "/images/team/john.jpg",
-  },
-  {
-    id: 2,
-    name: "Jane Smith",
-    role: "Project Manager",
-    image: "/images/team/jane.jpg",
-  },
-  {
-    id: 3,
-    name: "Michael Brown",
-    role: "Lead Engineer",
-    image: "/images/team/michael.jpg",
-  },
-  {
-    id: 4,
-    name: "Emily Davis",
-    role: "Architect",
-    image: "/images/team/emily.jpg",
-  },
+  { id: 1, image: "/images/team/john.jpg" },
+  { id: 2, image: "/images/team/jane.jpg" },
+  { id: 3, image: "/images/team/michael.jpg" },
+  { id: 4, image: "/images/team/emily.jpg" },
 ];
 
 function OurTeam() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-10">
-          Meet Our <span className="text-yellow-500">Team</span>
+          <Trans i18nKey="OurTeam.header">
+            Meet Our <span className="text-yellow-500">Team</span>
+          </Trans>
         </h2>
 
         <motion.div
@@ -41,7 +26,7 @@ function OurTeam() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          {teamMembers.map((member) => (
+          {teamMembers.map((member, index) => (
             <motion.div
               key={member.id}
               className="bg-white p-6 rounded-lg shadow-lg text-center"
@@ -49,11 +34,15 @@ function OurTeam() {
             >
               <img
                 src={member.image}
-                alt={member.name}
+                alt={t(`OurTeam.teamMembers.${index}.name`)}
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold">{member.name}</h3>
-              <p className="text-gray-600">{member.role}</p>
+              <h3 className="text-xl font-semibold">
+                {t(`OurTeam.teamMembers.${index}.name`)}
+              </h3>
+              <p className="text-gray-600">
+                {t(`OurTeam.teamMembers.${index}.role`)}
+              </p>
             </motion.div>
           ))}
         </motion.div>

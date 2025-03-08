@@ -1,11 +1,10 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useTranslation, Trans } from "react-i18next";
 
-function HeroBackground({
-  title = "Building the Future, Today",
-  subtitle = "High-quality construction services with innovation and excellence.",
-  image = "/src/images/main-hero-bg.jpg",
-}) {
+function HeroBackground({ image = "/src/images/main-hero-bg.jpg" }) {
+  const { t } = useTranslation();
+
   return (
     <div
       className="relative h-screen flex mt-4 items-center justify-center text-white bg-cover bg-center"
@@ -20,25 +19,25 @@ function HeroBackground({
         transition={{ duration: 0.8 }}
       >
         <h1 className="text-5xl font-extrabold mb-4">
-          {title.includes("Today") ? (
-            <>{title.split("Today")[0]} <span className="text-yellow-400">Today</span></>
-          ) : (
-            title
-          )}
+          <Trans i18nKey="HeroBackground.title">
+            Building the Future, <span className="text-yellow-400">Today</span>
+          </Trans>
         </h1>
-        <p className="text-lg text-gray-300 mb-6">{subtitle}</p>
+        <p className="text-lg text-gray-300 mb-6">
+          {t("HeroBackground.subtitle")}
+        </p>
         <div className="flex justify-center space-x-4">
           <Link
             to="/projects"
             className="px-6 py-3 bg-yellow-500 text-black font-bold rounded-lg hover:bg-yellow-600 transition"
           >
-            View Projects
+            {t("HeroBackground.buttons.viewProjects")}
           </Link>
           <Link
             to="/contact"
             className="px-6 py-3 border-2 border-yellow-500 text-yellow-500 font-bold rounded-lg hover:bg-yellow-500 hover:text-black transition"
           >
-            Get in Touch
+            {t("HeroBackground.buttons.getInTouch")}
           </Link>
         </div>
       </motion.div>

@@ -3,10 +3,6 @@ import i18n from 'i18next';
 import Flag from 'react-world-flags';  // Import react-world-flags for flag icons
 
 const LanguageSwitcher = () => {
-  i18n.init({
-    lng: localStorage.getItem('language') || 'en', // Use saved language or default to 'en'
-    // ...other configurations
-  });
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);

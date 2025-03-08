@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
+import { useTranslation, Trans } from "react-i18next";
 import OurTeam from "@/components/OurTeam";
 import Achievements from "@/components/Achievements";
 import TrustedPartners from "../components/TrustedPartners";
 
 function About() {
+  const { t } = useTranslation();
+
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto px-6">
@@ -13,7 +16,9 @@ function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          About <span className="text-yellow-500">BS Group SRL</span>
+          <Trans i18nKey="About.header">
+            About <span className="text-yellow-500">BS Group SRL</span>
+          </Trans>
         </motion.h1>
 
         <motion.p
@@ -22,14 +27,12 @@ function About() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          BS Group SRL is a leading construction company dedicated to
-          delivering high-quality projects with innovation and precision.
-          Our mission is to build a better future with expertise and excellence.
+          {t("About.description")}
         </motion.p>
 
         <Achievements />
         <OurTeam />
-        <TrustedPartners/>
+        <TrustedPartners />
       </div>
     </div>
   );

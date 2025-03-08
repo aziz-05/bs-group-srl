@@ -1,173 +1,306 @@
 {
-  "achievements_title": "Unsere Erfolge",
-  "projects_completed": "50+ Erfolgreiche Projekte",
-  "projects_completed_description": "Wir haben über 50 hochwertige Projekte abgeschlossen und jedes Mal Exzellenz geliefert.",
-  "awards_won": "10+ Ausgezeichnete Auszeichnungen",
-  "awards_won_description": "Für unsere Innovation und Qualität in der Bauindustrie anerkannt.",
-  "clients_satisfied": "200+ Zufriedene Kunden",
-  "clients_satisfied_description": "Kundenzufriedenheit steht im Mittelpunkt unseres Geschäfts, mit über 200 glücklichen Kunden.",
-  "ongoing_projects": "30+ Laufende Projekte",
-  "ongoing_projects_description": "Wir arbeiten derzeit an über 30 Projekten und halten unser Tempo in der Branche.",
-  "cta_title": "Warum BS Group SRL Wählen?",
-  "construction_quality": "Hochwertiger Bau",
-  "construction_quality_description": "Wir bieten erstklassige Bauleistungen mit Präzision und Effizienz.",
-  "modern_architecture": "Moderne Architektur",
-  "modern_architecture_description": "Unsere Designs vereinen Innovation und Funktionalität für atemberaubende Ergebnisse.",
-  "client_centric": "Kundenorientierter Ansatz",
-  "client_centric_description": "Wir arbeiten eng mit unseren Kunden zusammen, um Zufriedenheit und Exzellenz zu gewährleisten.",
-  "explore_services": "Entdecken Sie Unsere Dienstleistungen",
-  "footer_company_name": "BS Group SRL",
-  "footer_company_slogan": "Die Zukunft mit Innovation und Exzellenz bauen.",
-  "footer_quick_links": "Schnelllinks",
-  "footer_home": "Startseite",
-  "footer_about": "Über uns",
-  "footer_services": "Dienstleistungen",
-  "footer_projects": "Projekte",
-  "footer_contact": "Kontakt",
-  "footer_contact_address": "123 Bauallee, Stadt, Land",
-  "footer_contact_phone": "+123 456 7890",
-  "footer_contact_email": "info@bsgroup.com",
-  "footer_social_facebook": "Facebook",
-  "footer_social_instagram": "Instagram",
-  "footer_social_linkedin": "LinkedIn",
-  "footer_rights_reserved": "© 2025 BS Group SRL. Alle Rechte vorbehalten.",
-  "hero_title": "Die Zukunft bauen, heute",
-  "hero_subtitle": "Hochwertige Baudienstleistungen mit Innovation und Exzellenz.",
-  "hero_button_view_projects": "Projekte ansehen",
-  "hero_button_get_in_touch": "Kontakt aufnehmen",
-  "home": "Startseite",
-  "about": "Über uns",
-  "projects": "Projekte",
-  "contact": "Kontakt",
-  "services": "Dienstleistungen",
-  "service_1": "Bau",
-  "service_2": "Renovierung",
-  "service_3": "Beratung",
-  "service_4": "Wartung",
-  "teamTitle": "Lernen Sie Unser Team Kennen",
-  "teamMembers": {
-    "john": "Johann Doe",
-    "jane": "Johanna Schmidt",
-    "michael": "Michael Braun",
-    "emily": "Emilia Davis",
-    "ceo": "CEO & Gründer",
-    "projectManager": "Projektmanager",
-    "leadEngineer": "Leitender Ingenieur",
-    "architect": "Architekt"
+  "Achievements": {
+    "header": {
+      "before": "Unsere",
+      "highlight": "Erfolge"
+    },
+    "achievements": [
+      {
+        "title": "50+ Erfolgreiche Projekte",
+        "description": "Wir haben über 50 hochwertige Projekte abgeschlossen und liefern stets Exzellenz."
+      },
+      {
+        "title": "10+ Gewonnene Auszeichnungen",
+        "description": "Anerkannt für unsere Innovation und Qualität im Bauwesen."
+      },
+      {
+        "title": "200+ Zufriedene Kunden",
+        "description": "Die Kundenzufriedenheit steht im Mittelpunkt unseres Geschäfts, mit über 200 zufriedenen Kunden."
+      },
+      {
+        "title": "30+ Laufende Projekte",
+        "description": "Wir arbeiten derzeit an über 30 Projekten und halten unser Momentum in der Branche aufrecht."
+      }
+    ]
   },
-  "recentProjectsTitle": "Unsere Neuesten Projekte",
-  "projects": {
-    "office": "Modernes Bürogebäude",
-    "residential": "Luxuriöse Wohnanlage",
-    "warehouse": "Industrielles Lagerhaus",
-    "officeDescription": "Ein modernes Bürogebäude, das für Produktivität und Ästhetik entworfen wurde.",
-    "residentialDescription": "Ein luxuriöses Wohnprojekt, das Luxus mit Nachhaltigkeit vereint.",
-    "warehouseDescription": "Ein effizientes Lagerhaus mit moderner Infrastruktur für Logistik und Lagerung.",
-    "viewDetails": "Details Ansehen",
-    "viewAllProjects": "Alle Projekte Ansehen"
+  "CallToAction": {
+    "header": {
+      "before": "Warum wählen",
+      "highlight": "BS Group SRL?"
+    },
+    "services": [
+      {
+        "title": "Hochwertige Bauleistungen",
+        "description": "Wir liefern erstklassige Bauleistungen mit Präzision und Effizienz."
+      },
+      {
+        "title": "Moderne Architektur",
+        "description": "Unsere Entwürfe verbinden Innovation und Funktionalität für beeindruckende Ergebnisse."
+      },
+      {
+        "title": "Kundenorientierter Ansatz",
+        "description": "Wir arbeiten eng mit unseren Kunden zusammen, um Zufriedenheit und Exzellenz zu gewährleisten."
+      }
+    ],
+    "link": "Unsere Leistungen entdecken"
   },
-  "statisticsTitle": "Warum Uns Wählen?",
-  "stats": {
-    "completedProjects": "Abgeschlossene Projekte",
-    "industryAwards": "Branchenauszeichnungen",
-    "happyClients": "Zufriedene Kunden",
-    "ongoingProjects": "Laufende Projekte"
+  "Footer": {
+    "companyInfo": {
+      "name": "BS Group SRL",
+      "tagline": "Die Zukunft bauen mit Innovation und Exzellenz."
+    },
+    "quickLinks": {
+      "header": "Schnellzugriffe",
+      "items": ["Startseite", "Über uns", "Leistungen", "Projekte", "Kontakt"]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "address": "123 Construction Ave, Stadt, Land",
+      "phone": "+123 456 7890",
+      "email": "info@bsgroup.com"
+    },
+    "copyright": "© 2025 BS Group SRL. Alle Rechte vorbehalten."
   },
-  "testimonialsTitle": "Was Unsere Kunden Sagen",
+  "HeroBackground": {
+    "title": "Die Zukunft bauen, <1>Heute</1>",
+    "subtitle": "Hochwertige Bauleistungen mit Innovation und Exzellenz.",
+    "buttons": {
+      "viewProjects": "Projekte anzeigen",
+      "getInTouch": "Kontakt aufnehmen"
+    }
+  },
+  "Navbar": {
+  "logo": {
+    "group": "BS Group",
+    "srl": "SRL"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "dropdown": {
+    "services": "Leistungen",
+    "construction": "Bau",
+    "renovation": "Renovierung",
+    "consulting": "Beratung",
+    "maintenance": "Wartung"
+  }
+ },
+ "OurTeam": {
+  "header": "Lernen Sie unser <1>Team</1> kennen",
+  "teamMembers": [
+    {
+      "name": "John Doe",
+      "role": "CEO & Gründer"
+    },
+    {
+      "name": "Jane Smith",
+      "role": "Projektmanagerin"
+    },
+    {
+      "name": "Michael Brown",
+      "role": "Leitender Ingenieur"
+    },
+    {
+      "name": "Emily Davis",
+      "role": "Architektin"
+    }
+  ]
+},
+"RecentProjects": {
+  "header": "Unsere <1>Neuesten Projekte</1>",
+  "projects": [
+    {
+      "title": "Modernes Bürogebäude",
+      "description": "Ein hochmodernes Bürogebäude, entworfen für Produktivität und Ästhetik."
+    },
+    {
+      "title": "Luxuriöser Wohnkomplex",
+      "description": "Ein gehobenes Wohnprojekt, das Luxus mit Nachhaltigkeit verbindet."
+    },
+    {
+      "title": "Industriehalle",
+      "description": "Ein effizientes Lager mit moderner Infrastruktur für Logistik und Lagerung."
+    }
+  ],
+  "viewDetails": "Details anzeigen →",
+  "viewAllProjects": "Alle Projekte anzeigen"
+},
+"Statistics": {
+  "header": "Warum <1>uns?</1>",
+  "stats": [
+    {
+      "label": "Erfolgreiche Projekte"
+    },
+    {
+      "label": "Branchenpreise"
+    },
+    {
+      "label": "Zufriedene Kunden"
+    },
+    {
+      "label": "Laufende Projekte"
+    }
+  ]
+},
+"Testimonials": {
+  "header": {
+    "before": "Was unsere",
+    "highlight": "Kunden sagen"
+  },
   "testimonials": [
     {
       "name": "John Doe",
       "role": "CEO, Skyline Constructions",
-      "feedback": "BS Group SRL hat unser Projekt pünktlich und mit außergewöhnlicher Qualität geliefert. Ihre Professionalität und Expertise haben den gesamten Prozess reibungslos gestaltet."
+      "feedback": "BS Group SRL hat unser Projekt termingerecht und in herausragender Qualität geliefert. Ihre Professionalität und Expertise machten den gesamten Prozess nahtlos."
     },
     {
       "name": "Sarah Smith",
-      "role": "Projektleiterin, GreenBuild",
-      "feedback": "Ihre Liebe zum Detail und ihr Engagement für Exzellenz sind unvergleichlich. Ich empfehle sie wärmstens für jedes Bauprojekt."
+      "role": "Projektmanagerin, GreenBuild",
+      "feedback": "Ihre Liebe zum Detail und ihr Engagement für Exzellenz sind unvergleichlich. Ich empfehle sie sehr für jedes Bauprojekt."
     },
     {
       "name": "Michael Brown",
       "role": "Inhaber, Elite Properties",
       "feedback": "Die Zusammenarbeit mit BS Group SRL war eine fantastische Erfahrung. Ihr Team hat unsere Erwartungen in jeder Hinsicht übertroffen."
     }
-  ],
-  "trustedPartnersTitle": "Unsere Vertrauenswürdigen Partner",
+  ]
+},
+"TrustedPartners": {
+  "header": {
+    "before": "Unsere",
+    "highlight": "Vertrauenswürdigen Partner"
+  },
   "partners": [
-    { "name": "Partner 1", "logo": "/images/partners/partner1.png" },
-    { "name": "Partner 2", "logo": "/images/partners/partner2.png" },
-    { "name": "Partner 3", "logo": "/images/partners/partner3.png" },
-    { "name": "Partner 4", "logo": "/images/partners/partner4.png" },
-    { "name": "Partner 5", "logo": "/images/partners/partner5.png" }
-  ],
- "aboutTitle": "Über BS Group SRL",
-  "aboutDescription": "BS Group SRL ist ein führendes Bauunternehmen, das sich der Lieferung von hochqualitativen Projekten mit Innovation und Präzision widmet. Unsere Mission ist es, eine bessere Zukunft mit Expertise und Exzellenz zu bauen.",
-  "contact": {
-    "title": "Kontaktieren Sie uns",
-    "message": "Wir würden uns freuen, von Ihnen zu hören! Kontaktieren Sie uns bei Anfragen, Kooperationen oder einfach nur, um Hallo zu sagen.",
-    "sendMessage": "Nachricht senden",
-    "sentSuccess": "Nachricht erfolgreich gesendet!",
-    "sentError": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
-  },
-"ourProjects": "Unsere Projekte",
-  "projectDescription": "Wir sind stolz darauf, qualitativ hochwertige Bauprojekte zu liefern, die die Zeit überdauern.",
-  "project": "Projekt",
-  "ourServices": "Unsere Dienstleistungen",
-  "servicesSubtitle": "Hochwertige Lösungen, die auf Ihre Bedürfnisse zugeschnitten sind",
-  "whatWeOffer": "Was Wir Anbieten",
-  "construction": "Bau",
-  "renovation": "Renovierung",
-  "consulting": "Beratung",
-  "maintenance": "Wartung",
-  "readMore": "Mehr Erfahren",
-  "readLess": "Weniger Lesen",
-  "learnMore": "Mehr Erfahren",
-  "construction": {
-    "title": "Bauleistungen",
-    "subtitle": "Ihre Vision mit Präzision und Fachwissen bauen",
-    "description": "Unser Bau-Team liefert hochwertige Gebäude, die auf Ihre Bedürfnisse zugeschnitten sind und in jedem Projekt Langlebigkeit und Innovation gewährleisten.",
-    "features": {
-      "reliable": "Zuverlässige & dauerhafte Bauweise",
-      "modern": "Moderne architektonische Designs",
-      "technology": "Fortschrittliche Bautechnologien",
-      "experienced": "Erfahrene Ingenieure & Arbeiter"
+    { "name": "Partner 1" },
+    { "name": "Partner 2" },
+    { "name": "Partner 3" },
+    { "name": "Partner 4" },
+    { "name": "Partner 5" }
+  ]
+},
+"About": {
+  "header": "Über <1>BS Group SRL</1>",
+  "description": "BS Group SRL ist ein führendes Bauunternehmen, das sich der termingerechten Ausführung hochwertiger Projekte mit Innovation und Präzision verschrieben hat. Unsere Mission ist es, mit Fachwissen und Exzellenz eine bessere Zukunft zu bauen."
+},
+"Contact": {
+  "sectionHeader": "Kontaktieren Sie uns",
+  "sectionParagraph": "Wir würden uns freuen, von Ihnen zu hören! Kontaktieren Sie uns für Anfragen, Kooperationen oder einfach, um Hallo zu sagen.",
+  "cards": {
+    "address": {
+      "title": "Adresse",
+      "text": "123 Business Street, Stadt, Land"
     },
-    "cta": "Jetzt ein Angebot einholen"
-  },
-  "consulting": {
-    "title": "Beratungsdienste",
-    "subtitle": "Expertenrat, um Ihre Projekte zum Erfolg zu führen",
-    "description": "Wir bieten professionelle Beratungsdienste, um Ihnen zu helfen, erfolgreiche Projekte mit Vertrauen zu planen und umzusetzen.",
-    "features": {
-      "experienced": "Erfahrene Branchenexperten",
-      "customized": "Maßgeschneiderte Lösungen für Ihre Bedürfnisse",
-      "innovative": "Innovative Strategien & Erkenntnisse",
-      "maximize": "Maximieren Sie Effizienz & Rentabilität"
+    "phone": {
+      "title": "Telefon",
+      "text": "+123 456 7890"
     },
-    "cta": "Beratung anfordern"
+    "email": {
+      "title": "E-Mail",
+      "text": "contact@bsgroupsrl.com"
+    }
   },
-  "maintenance": {
-    "title": "Wartungsdienste",
-    "subtitle": "Zuverlässige Lösungen, um Ihre Immobilie in einwandfreiem Zustand zu halten",
-    "description": "Unsere Wartungsdienste sorgen dafür, dass Ihre Immobilie das ganze Jahr über in ausgezeichnetem Zustand bleibt. Von Reparaturen bis hin zu routinemäßigen Inspektionen kümmern wir uns professionell und effizient um alles.",
-    "features": {
-      "technicians": "Erfahrene Techniker rund um die Uhr verfügbar",
-      "response": "Schnelle Reaktion und pünktlicher Service",
-      "plans": "Umfassende Wartungspläne",
-      "emergency": "Notfalldienst, wenn Sie ihn benötigen"
+  "form": {
+    "heading": "Senden Sie uns eine Nachricht",
+    "input": {
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "message": "Ihre Nachricht"
     },
-    "cta": "Wartung anfordern"
+    "button": "Nachricht senden",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Senden der Nachricht fehlgeschlagen. Bitte versuchen Sie es erneut."
   },
-  "renovation": {
-    "title": "Renovierungsdienste",
-    "subtitle": "Verwandlung von Räumen mit modernen und stilvollen Upgrades",
-    "description": "Wir erwecken alte Räume mit kreativen Renovierungslösungen zum Leben und verleihen Ihrer Immobilie ein frisches und modernes Aussehen.",
-    "features": {
-      "upgrades": "Vollständige Innen- und Außensanierungen",
-      "materials": "Qualitätsmaterialien und Handwerkskunst",
-      "designs": "Moderne Designs und Layouts",
-      "customized": "Maßgeschneiderte Renovierungen für jedes Bedürfnis"
-    },
-    "cta": "Renovierung starten"
+  "location": {
+    "heading": "📍 Unser Standort"
   }
-  
+},
+"Projects": {
+  "header": "Unsere Projekte",
+  "description": "Wir sind stolz darauf, hochwertige Bauprojekte zu liefern, die dem Test der Zeit standhalten.",
+  "imageAlt": "Projekt {{index}}"
+},
+"Services": {
+  "header": "Was wir anbieten",
+  "services": [
+    {
+      "title": "Bau",
+      "description": "Hochwertige Baudienstleistungen für private und gewerbliche Projekte."
+    },
+    {
+      "title": "Renovierung",
+      "description": "Verwandeln und modernisieren Sie Ihre Räume mit professionellen Renovierungsdienstleistungen."
+    },
+    {
+      "title": "Beratung",
+      "description": "Professionelle Beratungsdienstleistungen zur Unterstützung Ihrer Bauprojekte."
+    },
+    {
+      "title": "Wartung",
+      "description": "Zuverlässige Wartungslösungen, um Ihre Immobilien in bestem Zustand zu halten."
+    }
+  ],
+  "readMore": "Mehr lesen",
+  "readLess": "Weniger lesen",
+  "expandedText": "Wir gewährleisten erstklassigen Service und Kundenzufriedenheit.",
+  "learnMore": "Mehr erfahren →"
+},
+"Construction": {
+  "heroTitle": "Bauleistungen",
+  "heroSubtitle": "Wir realisieren Ihre Vision mit Präzision und Fachwissen",
+  "header": "Unsere Baukompetenz",
+  "description": "Unser Bauteam realisiert hochwertige Gebäude, die individuell auf Ihre Bedürfnisse zugeschnitten sind, und vereint Langlebigkeit mit Innovation in jedem Projekt.",
+  "imageAlt": "Bauleistungen",
+  "features": [
+    "Zuverlässiger und langlebiger Bau",
+    "Moderne architektonische Designs",
+    "Fortschrittliche Bautechnologien",
+    "Erfahrene Ingenieure und Arbeiter"
+  ],
+  "button": "Angebot einholen"
+},
+"Consulting": {
+  "heroTitle": "Beratungsdienstleistungen",
+  "heroSubtitle": "Expertenrat, der Ihren Projekten zum Erfolg verhilft",
+  "header": "Professionelle Beratungslösungen",
+  "description": "Wir bieten professionelle Beratungsdienstleistungen, die Ihnen helfen, erfolgreiche Projekte mit Zuversicht zu planen und umzusetzen.",
+  "imageAlt": "Beratungsdienstleistungen",
+  "features": [
+    "Erfahrene Branchenexperten",
+    "Maßgeschneiderte Lösungen für Ihre Bedürfnisse",
+    "Innovative Strategien & Einblicke",
+    "Maximierung von Effizienz & Rentabilität"
+  ],
+  "button": "Beratung anfordern"
+},
+"Maintenance": {
+  "heroTitle": "Wartungsdienstleistungen",
+  "heroSubtitle": "Zuverlässige Lösungen, um Ihre Immobilie in bestem Zustand zu halten",
+  "header": "Warum unsere Wartungsdienstleistungen wählen?",
+  "imageAlt": "Wartungsdienstleistungen",
+  "description": "Unsere Wartungsdienste sorgen dafür, dass Ihre Immobilie das ganze Jahr über in ausgezeichnetem Zustand bleibt. Von Reparaturen bis zu regelmäßigen Kontrollen erledigen wir alles professionell und effizient.",
+  "features": [
+    "Erfahrene Techniker rund um die Uhr verfügbar",
+    "Schnelle Reaktionszeit und pünktlicher Service",
+    "Umfassende Wartungspläne",
+    "Notfallunterstützung, wenn Sie sie brauchen"
+  ],
+  "button": "Wartung anfordern"
+},
+"Renovation": {
+  "heroTitle": "Renovierungsdienstleistungen",
+  "heroSubtitle": "Räume neu gestalten mit modernen und stilvollen Upgrades",
+  "header": "Warum mit uns renovieren?",
+  "imageAlt": "Renovierungsdienstleistungen",
+  "description": "Wir erwecken alte Räume mit kreativen Renovierungslösungen zum Leben und verleihen Ihrer Immobilie einen frischen, modernen Look.",
+  "features": [
+    "Komplette Innen- und Außenerneuerungen",
+    "Hochwertige Materialien & Handwerkskunst",
+    "Moderne Designs & Grundrisse",
+    "Maßgeschneiderte Renovierungen für jeden Bedarf"
+  ],
+  "button": "Renovierung starten"
+}
 }
