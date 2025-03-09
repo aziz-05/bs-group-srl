@@ -48,13 +48,13 @@ function Footer() {
             </li>
             <li className="flex items-center space-x-2">
               <FaPhoneAlt className="text-yellow-400" />
-              <a href="tel:+1234567890" className="hover:text-yellow-400">
+              <a href="tel:+39 327 944 9458" className="hover:text-yellow-400">
                 {t("Footer.contact.phone")}
               </a>
             </li>
             <li className="flex items-center space-x-2">
               <FaEnvelope className="text-yellow-400" />
-              <a href="mailto:info@bsgroup.com" className="hover:text-yellow-400">
+              <a href="mailto:info@bsgroupsrl.net" className="hover:text-yellow-400">
                 {t("Footer.contact.email")}
               </a>
             </li>

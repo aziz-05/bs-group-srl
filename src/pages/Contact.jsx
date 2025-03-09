@@ -85,7 +85,7 @@ function Contact() {
         <div className="space-y-6">
           {/* Address Card */}
           <a
-            href="https://www.google.com/maps/search/BS+Group+Srl+di+Ballarin+Simone"
+            href="https://maps.app.goo.gl/D7fxk8xgZAumVZWDA"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-center space-x-4 hover:shadow-lg transition"
@@ -103,7 +103,7 @@ function Contact() {
 
           {/* Phone Card */}
           <a
-            href="tel:+1234567890"
+            href="tel:+39 327 9449458"
             className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-center space-x-4 hover:shadow-lg transition"
           >
             <span className="text-2xl">📞</span>
@@ -119,7 +119,7 @@ function Contact() {
 
           {/* Email Card */}
           <a
-            href="mailto:contact@bsgroupsrl.com"
+            href="mailto:info@bsgroupsrl.net"
             className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-center space-x-4 hover:shadow-lg transition"
           >
             <span className="text-2xl">✉️</span>
@@ -206,7 +206,7 @@ function Contact() {
         </h3>
         <iframe
           className="w-full h-80 rounded-lg shadow-lg"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1256.342!2d11.0619257!3d45.4692016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781fe077ecee0c9%3A0x7c60d1410887e8e7!2sBS%20Group%20Srl!5e0!3m2!1sen!2sus!4v1700000000000"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.7474209620095!2d9.1469998!3d45.495030799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1aa0744739d%3A0xab28bdbe6dc6862f!2sVia%20Marcantonio%20dal%20Re%2C%206%2C%2020156%20Milano%20MI!5e0!3m2!1sit!2sit!4v1741485630747!5m2!1sit!2sit"
           allowFullScreen
           loading="lazy"
         ></iframe>
