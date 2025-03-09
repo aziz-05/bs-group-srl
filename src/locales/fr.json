@@ -55,9 +55,9 @@
     },
     "contact": {
       "title": "Contact",
-      "address": "123 Construction Ave, Ville, Pays",
-      "phone": "+123 456 7890",
-      "email": "info@bsgroup.com"
+      "address": "Via Marcantonio del re ,6 Milano 20156",
+      "phone": "+39 327 944 9458",
+      "email": "info@bsgroupsrl.net"
     },
     "copyright": "© 2025 BS Group SRL. Tous droits réservés."
   },
@@ -191,15 +191,15 @@
   "cards": {
     "address": {
       "title": "Adresse",
-      "text": "123 Business Street, Ville, Pays"
+      "text": "Via Marcantonio dal Re, 6 Milano 20156"
     },
     "phone": {
       "title": "Téléphone",
-      "text": "+123 456 7890"
+      "text": "+39 327 944 9458"
     },
     "email": {
       "title": "E-mail",
-      "text": "contact@bsgroupsrl.com"
+      "text": "info@bsgroupsrl.net"
     }
   },
   "form": {

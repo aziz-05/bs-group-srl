@@ -51,12 +51,12 @@ function Navbar() {
         >
           <img
             src={ReactLogow}
-            alt="BS Group SRL Logo"
+            alt="BS GROUP SRL Logo"
             className="w-24 h-24 transition-all duration-300 group-hover:opacity-0"
           />
           <img
             src={ReactLogo}
-            alt="BS Group SRL Logo White"
+            alt="BS GROUP SRL Logo White"
             className="w-24 h-24 absolute transition-all duration-300 opacity-0 group-hover:scale-110 group-hover:opacity-100"
           />
           <span className="transition-all duration-300 group-hover:text-yellow-400">
@@ -256,7 +256,7 @@ function Navbar() {
 
             {/* Social Icons */}
             <div className="flex space-x-6 mt-8">
-              {[FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp].map((Icon, index) => (
+              {[{Fa}].map((Icon, index) => (
                 <motion.a
                   key={index}
                   whileHover={{
