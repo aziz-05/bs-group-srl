@@ -101,7 +101,7 @@ function Services() {
 
       {/* Call To Action */}
       <CallToAction />
-      <TrustedPartners />
+      {/* <TrustedPartners /> */}
     </div>
   );
 }

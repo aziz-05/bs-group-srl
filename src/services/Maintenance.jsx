@@ -3,9 +3,11 @@ import { useTranslation } from "react-i18next";
 import { FaTools, FaCheckCircle, FaClock, FaPhoneAlt } from "react-icons/fa";
 import CallToAction from "@/components/CallToAction";
 import HeroBackground from "@/components/HeroBackground";
+import { useNavigate } from "react-router-dom";
 
 function Maintenance() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   // Retrieve the features array from translations
   const features = t("Maintenance.features", { returnObjects: true });
@@ -39,7 +41,7 @@ function Maintenance() {
             transition={{ duration: 0.5 }}
           >
             <img
-              src="/images/maintenance.jpg"
+              src="/src/images/maintenance.webp"
               alt={t("Maintenance.imageAlt")}
               className="w-full h-auto object-cover"
             />
@@ -69,7 +71,7 @@ function Maintenance() {
                 ))}
             </ul>
 
-            <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition">
+            <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition" onClick={()  => navigate("/contact")}>
               {t("Maintenance.button")}
             </button>
           </motion.div>

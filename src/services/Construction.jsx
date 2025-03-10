@@ -4,9 +4,11 @@ import { useState } from "react";
 import { FaHardHat, FaBuilding, FaCogs, FaCheckCircle } from "react-icons/fa";
 import HeroBackground from "@/components/HeroBackground";
 import CallToAction from "@/components/CallToAction";
+import { useNavigate } from "react-router-dom";
 
 function Construction() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   // Retrieve the translated features array
   const features = t("Construction.features", { returnObjects: true });
@@ -47,7 +49,7 @@ function Construction() {
             transition={{ duration: 0.5 }}
           >
             <img
-              src="/images/construction.jpg"
+              src="/src/images/construction.webp"
               alt={t("Construction.imageAlt")}
               className="w-full h-auto object-cover"
             />
@@ -72,7 +74,7 @@ function Construction() {
                   </li>
                 ))}
             </ul>
-            <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition">
+            <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition" onClick={()  => navigate("/contact")}>
               {t("Construction.button")}
             </button>
           </motion.div>

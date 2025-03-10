@@ -63,7 +63,7 @@ function Footer() {
           {/* Social Icons */}
           <div className="flex space-x-4 mt-4">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/15krs48zqg/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-gray-700 rounded-full hover:bg-yellow-400 transition"
@@ -71,7 +71,7 @@ function Footer() {
               <FaFacebookF className="text-white hover:text-black" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/bs_group_srl/?utm_source=ig_web_button_share_sheet"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-gray-700 rounded-full hover:bg-yellow-400 transition"

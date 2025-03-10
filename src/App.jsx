@@ -10,10 +10,12 @@ import Consulting from "@/services/Consulting";
 import Maintenance from "@/services/Maintenance";
 import Layout from "@/layouts/Layout";
 import "@/styles/globals.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

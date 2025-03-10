@@ -3,9 +3,11 @@ import { useTranslation } from "react-i18next";
 import { FaCheckCircle, FaRedo, FaPaintRoller, FaHome } from "react-icons/fa";
 import HeroBackground from "@/components/HeroBackground";
 import CallToAction from "@/components/CallToAction";
+import { useNavigate } from "react-router-dom";
 
 function Renovation() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   // Retrieve the features array from translations
   const features = t("Renovation.features", { returnObjects: true });
@@ -45,7 +47,7 @@ function Renovation() {
             transition={{ duration: 0.5 }}
           >
             <img
-              src="/images/renovation.jpg"
+              src="/src/images/renovation.webp"
               alt={t("Renovation.imageAlt")}
               className="w-full h-auto object-cover"
             />
@@ -70,7 +72,7 @@ function Renovation() {
                   </li>
                 ))}
             </ul>
-            <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition">
+            <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition" onClick={()  => navigate("/contact")}>
               {t("Renovation.button")}
             </button>
           </motion.div>

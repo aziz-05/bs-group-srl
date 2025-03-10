@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { useTranslation, Trans } from "react-i18next";
 
 const teamMembers = [
-  { id: 1, image: "/images/team/john.jpg" },
-  { id: 2, image: "/images/team/jane.jpg" },
-  { id: 3, image: "/images/team/michael.jpg" },
-  { id: 4, image: "/images/team/emily.jpg" },
+  { id: 1, image: "/src/images/team/john.png" },
+  { id: 2, image: "/src/images/team/michael.png" },
+  { id: 3, image: "/src/images/team/sarah.png" },
+  { id: 4, image: "/src/images/team/mohamed.png" },
 ];
 
 function OurTeam() {

@@ -24,7 +24,7 @@ function Home() {
       <Testimonials />
 
       {/* Trusted Partners */}
-      <TrustedPartners />
+      {/* <TrustedPartners /> */}
     </>
   );
 }

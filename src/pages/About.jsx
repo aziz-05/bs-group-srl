@@ -17,7 +17,7 @@ function About() {
           transition={{ duration: 0.8 }}
         >
           <Trans i18nKey="About.header">
-            About <span className="text-yellow-500">BS Group SRL</span>
+            About <span className="text-yellow-500">BS GROUP SRL</span>
           </Trans>
         </motion.h1>
 
@@ -32,7 +32,7 @@ function About() {
 
         <Achievements />
         <OurTeam />
-        <TrustedPartners />
+        {/* <TrustedPartners /> */}
       </div>
     </div>
   );

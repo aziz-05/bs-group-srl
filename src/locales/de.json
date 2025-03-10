@@ -26,7 +26,7 @@
   "CallToAction": {
     "header": {
       "before": "Warum wählen",
-      "highlight": "BS Group SRL?"
+      "highlight": "BS GROUP SRL?"
     },
     "services": [
       {
@@ -46,7 +46,7 @@
   },
   "Footer": {
     "companyInfo": {
-      "name": "BS Group SRL",
+      "name": "BS GROUP SRL",
       "tagline": "Die Zukunft bauen mit Innovation und Exzellenz."
     },
     "quickLinks": {
@@ -59,7 +59,7 @@
       "phone": "+39 327 944 9458",
       "email": "info@bsgroupsrl.net"
     },
-    "copyright": "© 2025 BS Group SRL. Alle Rechte vorbehalten."
+    "copyright": "© 2025 BS GROUP SRL. Alle Rechte vorbehalten."
   },
   "HeroBackground": {
     "title": "Die Zukunft bauen, <1>Heute</1>",
@@ -71,7 +71,7 @@
   },
   "Navbar": {
   "logo": {
-    "group": "BS Group",
+    "group": "BS GROUP",
     "srl": "SRL"
   },
   "nav": {
@@ -92,20 +92,20 @@
   "header": "Lernen Sie unser <1>Team</1> kennen",
   "teamMembers": [
     {
-      "name": "John Doe",
+      "name": "Bebo Donga",
       "role": "CEO & Gründer"
     },
     {
-      "name": "Jane Smith",
+      "name": "Simo",
       "role": "Projektmanagerin"
     },
     {
-      "name": "Michael Brown",
+      "name": "Emma Mechrgui",
       "role": "Leitender Ingenieur"
     },
     {
-      "name": "Emily Davis",
-      "role": "Architektin"
+      "name": "Francesco",
+      "role": "Geometer"
     }
   ]
 },
@@ -154,7 +154,7 @@
     {
       "name": "John Doe",
       "role": "CEO, Skyline Constructions",
-      "feedback": "BS Group SRL hat unser Projekt termingerecht und in herausragender Qualität geliefert. Ihre Professionalität und Expertise machten den gesamten Prozess nahtlos."
+      "feedback": "BS GROUP SRL hat unser Projekt termingerecht und in herausragender Qualität geliefert. Ihre Professionalität und Expertise machten den gesamten Prozess nahtlos."
     },
     {
       "name": "Sarah Smith",
@@ -164,7 +164,7 @@
     {
       "name": "Michael Brown",
       "role": "Inhaber, Elite Properties",
-      "feedback": "Die Zusammenarbeit mit BS Group SRL war eine fantastische Erfahrung. Ihr Team hat unsere Erwartungen in jeder Hinsicht übertroffen."
+      "feedback": "Die Zusammenarbeit mit BS GROUP SRL war eine fantastische Erfahrung. Ihr Team hat unsere Erwartungen in jeder Hinsicht übertroffen."
     }
   ]
 },
@@ -182,8 +182,8 @@
   ]
 },
 "About": {
-  "header": "Über <1>BS Group SRL</1>",
-  "description": "BS Group SRL ist ein führendes Bauunternehmen, das sich der termingerechten Ausführung hochwertiger Projekte mit Innovation und Präzision verschrieben hat. Unsere Mission ist es, mit Fachwissen und Exzellenz eine bessere Zukunft zu bauen."
+  "header": "Über <1>BS GROUP SRL</1>",
+  "description": "BS GROUP SRL ist auf schlüsselfertige Renovierungsdienstleistungen spezialisiert. Das Unternehmen ist erfahren in der Durchführung von schlüsselfertigen Renovierungsarbeiten für Wohnungen und Geschäfte. Indem der Kunde auf BS GROUP SRL vertraut, kann er sich auf qualifiziertes Personal verlassen, das in der Lage ist, alle Fragen und Bedenken zu beantworten und jedes Problem zu lösen. Das Bauunternehmen bietet einen umfassenden Service, der folgende Leistungen umfasst: Erstellung einer wirtschaftlichen Bewertung, Umsetzung des Projekts, Planung, Verwaltung und Überwachung der Arbeiten sowie die Koordination aller Dienstleister und Lieferanten. Es erstellt kostenlose Kostenvoranschläge und steht für Kundenbetreuung vor, während und nach der Ausführung der Arbeiten zur Verfügung."
 },
 "Contact": {
   "sectionHeader": "Kontaktieren Sie uns",
@@ -191,15 +191,15 @@
   "cards": {
     "address": {
       "title": "Adresse",
-      "text": "123 Business Street, Stadt, Land"
+      "text": "Via Marcantonio de re ,6 Milano 20156"
     },
     "phone": {
       "title": "Telefon",
-      "text": "+123 456 7890"
+      "text": "+39 327 944 9458"
     },
     "email": {
       "title": "E-Mail",
-      "text": "contact@bsgroupsrl.com"
+      "text": "info@bsgroupsrl.net"
     }
   },
   "form": {

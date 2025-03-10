@@ -11,9 +11,9 @@ import { useTranslation } from "react-i18next";
 
 const projectImages = [
   "/src/images/renovation.webp",
-  "/images/project2.jpg",
-  "/images/project3.jpg",
-  "/images/project4.jpg",
+  "/src/images/renovation.webp",
+  "/src/images/renovation.webp",
+  "/src/images/renovation.webp",
 ];
 
 function Projects() {

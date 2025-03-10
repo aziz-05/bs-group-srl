@@ -23,10 +23,10 @@ function Contact() {
 
     emailjs
       .send(
-        "service_txxya9b", // Replace with your EmailJS Service ID
-        "template_i10n3lr", // Replace with your EmailJS Template ID
+        "service_0dgknni", // Replace with your EmailJS Service ID
+        "template_8eepb7e", // Replace with your EmailJS Template ID
         formData,
-        "oQTeHX0ydKXyq1b9R" // Replace with your EmailJS Public Key
+        "G8aclw4wX_wplH00x" // Replace with your EmailJS Public Key
       )
       .then(() => {
         setStatus("success");

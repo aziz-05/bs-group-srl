@@ -3,9 +3,11 @@ import { useTranslation } from "react-i18next";
 import { FaBriefcase, FaUsers, FaLightbulb, FaCheckCircle } from "react-icons/fa";
 import HeroBackground from "@/components/HeroBackground";
 import CallToAction from "@/components/CallToAction";
+import { useNavigate } from "react-router-dom";
 
 function Consulting() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   // Retrieve features from translations
   const features = t("Consulting.features", { returnObjects: true });
@@ -71,7 +73,7 @@ function Consulting() {
                   </li>
                 ))}
             </ul>
-            <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition">
+            <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition" onClick={()  => navigate("/contact")}>
               {t("Consulting.button")}
             </button>
           </motion.div>

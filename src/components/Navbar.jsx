@@ -142,15 +142,16 @@ function Navbar() {
           {/* Social Icons */}
           <div className="flex space-x-4 items-center ml-4">
             {[
-              { Icon: FaFacebook, url: "https://facebook.com" },
-              { Icon: FaInstagram, url: "https://instagram.com" },
+              { Icon: FaFacebook, url: "https://www.facebook.com/share/15krs48zqg/?mibextid=wwXIfr" },
+              { Icon: FaInstagram, url: "https://www.instagram.com/bs_group_srl/?utm_source=ig_web_button_share_sheet" },
               { Icon: FaLinkedin, url: "https://linkedin.com" },
-              { Icon: FaWhatsapp, url: "https://wa.me" },
+              { Icon: FaWhatsapp, url: "https://wa.me/393279449458" },
             ].map((item, index) => (
               <motion.a
                 key={index}
                 whileHover={{ scale: 1.5 }}
                 href={item.url}
+                target="_blank"
                 className="text-white hover:text-yellow-400 transition"
               >
                 <item.Icon size={20} />
@@ -256,7 +257,12 @@ function Navbar() {
 
             {/* Social Icons */}
             <div className="flex space-x-6 mt-8">
-              {[{Fa}].map((Icon, index) => (
+              {[
+              { Icon: FaFacebook, url: "https://www.facebook.com/share/15krs48zqg/?mibextid=wwXIfr" },
+              { Icon: FaInstagram, url: "https://www.instagram.com/bs_group_srl/?utm_source=ig_web_button_share_sheet" },
+              { Icon: FaLinkedin, url: "https://linkedin.com" },
+              { Icon: FaWhatsapp, url: "https://wa.me/393279449458" },
+            ].map((item, index) => (
                 <motion.a
                   key={index}
                   whileHover={{
@@ -265,11 +271,12 @@ function Navbar() {
                     color: "#FBBF24",
                     transition: { duration: 0.3 },
                   }}
-                  href="#"
+                  href={item.url}
+                  target="_blank"
                   className="text-white transition-all duration-300 p-2 relative"
                 >
                   <span className="absolute inset-0 rounded-full bg-gray-800 opacity-0 transition-all duration-300 group-hover:opacity-30"></span>
-                  <Icon size={28} />
+                  <item.Icon size={20} />
                 </motion.a>
               ))}
             </div>
