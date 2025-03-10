@@ -8,8 +8,9 @@ function Footer() {
 
   // Retrieve the quick links array from translations
   // const quickLinks = t("Footer.quickLinks.items", { returnObjects: true });
+  const routes = ["home", "about", "services","projects", "contact"];
   const quickLinks = t("Footer.quickLinks.items", { returnObjects: true }).map((item, index) => ({
-    route: item.toLowerCase(),
+    route: routes[index].toLowerCase(),
     key: item,
   }));
 
