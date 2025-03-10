@@ -7,7 +7,11 @@ function Footer() {
   const { t } = useTranslation();
 
   // Retrieve the quick links array from translations
-  const quickLinks = t("Footer.quickLinks.items", { returnObjects: true });
+  // const quickLinks = t("Footer.quickLinks.items", { returnObjects: true });
+  const quickLinks = t("Footer.quickLinks.items", { returnObjects: true }).map((item, index) => ({
+    route: item.toLowerCase(),
+    key: item,
+  }));
 
   return (
     <footer className="bg-gray-900 text-white py-8">
@@ -28,10 +32,10 @@ function Footer() {
             {quickLinks.map((item, index) => (
               <li key={index}>
                 <Link
-                  to={`/${item.toLowerCase()}`}
+                  to={`/${item.route.toLowerCase()}`}
                   className="text-gray-400 hover:text-yellow-400 transition"
                 >
-                  {item}
+                  {item.key}
                 </Link>
               </li>
             ))}
